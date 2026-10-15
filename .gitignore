@@ -1,0 +1,22 @@
+# --- ANDROID / GRADLE ---
+.kotlin/
+**/build/
+.idea/
+.gradle/
+*.iml
+
+# --- SECRETS ---
+.env
+.env.*
+!.env.example
+
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+google-services.json
+
+# --- GENERATED FILES ---
+*.log
+captures/
